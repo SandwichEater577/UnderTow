@@ -1,0 +1,51 @@
+# Out-of-source CMake builds
+/build/
+/build-*/
+/cmake-build-*/
+
+# In-source CMake / CTest output
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/install_manifest.txt
+/CTestTestfile.cmake
+/DartConfiguration.tcl
+/Testing/
+/Makefile
+/build.ninja
+/rules.ninja
+/.ninja_deps
+/.ninja_log
+/compile_commands.json
+CMakeUserPresets.json
+
+# Compiled objects and executables
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+/undertow
+/motion_check
+
+# Generated frame captures
+/captures/
+/preview.bmp
+
+# Local editor, environment, and tool state
+/.idea/
+/.vscode/
+/.agents/
+/.codex/
+/.aws/
+.env
+.env.*
+!.env.example
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
